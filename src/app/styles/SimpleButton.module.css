@@ -1,0 +1,32 @@
+.simpleButton {
+    background-color: #e7e7e7; /* Base color for the gradient */
+    border: 1px solid #4b4b4b; /* Dark border for depth */
+    color: black;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* Gradient background */
+    background-image: linear-gradient(to bottom, #ffffff, #c3c3c3);
+    /* Rounded corners */
+    border-radius: 3px;
+    /* Text styling */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px #ffffff;
+    /* Box shadow for 3D effect */
+    /* Transition for interactive states */
+    transition: background-color 0s, box-shadow 0s;
+  }
+  
+  .simpleButton:hover {
+    background-image: linear-gradient(to bottom, #c3c3c3, #ffffff);
+  }
+  
+  .simpleButton:active {
+    background-image: none;
+    background-color: #c3c3c3;
+  }
+  
