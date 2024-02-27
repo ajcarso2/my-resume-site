@@ -14,6 +14,8 @@ const FancyButton: React.FC<FancyButtonProps> = ({ onClick }) => {
                 <span
                     key={index}
                     className={styles.char}
+                    // Fancy Font Family
+                    style={{fontSize: 32, fontFamily: 'cursive'}}
                 >
                     {char}
                 </span>
